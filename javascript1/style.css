@@ -1,0 +1,34 @@
+    .container {
+        margin: auto;
+        width: 60%;
+        padding: 10px;
+    }
+    
+    .vonal {
+        border-top: 3px solid black;
+    }
+    
+    .td1 {
+        background: url(img/kek.png) no-repeat;
+    }
+    
+    .td2 {
+        background: url(img/szurke.png) no-repeat;
+    }
+    
+    .td3 {
+        background: url(img/piros.png) no-repeat;
+    }
+    
+    td {
+        width: 250px;
+        height: 250px;
+    }
+    
+    p {
+        position: absolute;
+    }
+    
+    td {
+        border: 1px solid black;
+    }

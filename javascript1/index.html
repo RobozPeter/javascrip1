@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Gyakorló feladat. Matematikai műveletek:</h1>
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+                <td id="kek" class="td1"></td>
+                <td id="kek1" class="td1"></td>
+            </tr>
+            <tr>
+                <td><img src="img/pluszjel.png"></td>
+                <td></td>
+                <td id="szurke" class="td2"></td>
+                <td id="piros" class="td3"></td>
+            </tr>
+            <tr>
+                <td class="vonal "><img src="img/egyenlo.png "></td>
+                <td class="vonal td2" id="szurke1"></td>
+                <td class="vonal td3" id="piros1"></td>
+                <td class="vonal td1" id="kek2"></td>
+            </tr>
+        </table>
+        <button onclick="myFunction() ">Alap</button>
+        <button onclick="MyFunction() ">Megoldás</button>
+
+    </div>
+
+    <script>
+        function myFunction() {
+            document.getElementById("kek").innerHTML = "<p></p> ";
+            document.getElementById("kek1").innerHTML = "<p></p> ";
+            document.getElementById("kek2").innerHTML = "<p></p> ";
+            document.getElementById("szurke").innerHTML = "<p></p> ";
+            document.getElementById("szurke1").innerHTML = "<p></p> ";
+            document.getElementById("piros").innerHTML = "<p></p> ";
+            document.getElementById("piros1").innerHTML = "<p></p> ";
+
+        }
+    </script>
+    <script>
+        function MyFunction() {
+            document.getElementById("kek").innerHTML = "<p>9</p>";
+            document.getElementById("kek1").innerHTML = "<p> 9 </p>";
+            document.getElementById("kek2").innerHTML = "<p>9</p>";
+            document.getElementById("szurke").innerHTML = "<p>1</p>";
+            document.getElementById("szurke1").innerHTML = "<p>1</p>";
+            document.getElementById("piros").innerHTML = "<p>0</p>";
+            document.getElementById("piros1").innerHTML = "<p>0</p>";
+
+        }
+    </script>
+</body>
+
+</html>
